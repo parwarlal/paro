@@ -1,0 +1,24 @@
+name: paro_app
+description: تطبيق Paro لمتابعة كرة القدم والدردشة
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  intl: ^0.18.1
+  audioplayers: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
